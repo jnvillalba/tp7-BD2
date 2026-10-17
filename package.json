@@ -1,0 +1,20 @@
+{
+  "name": "tp7",
+  "version": "1.0.0",
+  "description": "TP7: conexión a MongoDB con driver nativo y Mongoose",
+  "scripts": {
+    "driver": "node driver_lab.js",
+    "mongoose": "node mongoose_lab.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "mongodb": "^7.7.0",
+    "mongoose": "^9.11.2"
+  }
+}
